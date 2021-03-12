@@ -1,0 +1,144 @@
+body {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+.lists {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--active-color);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo2 {
+  color: black;
+  position: absolute;
+}
+
+.navlink {
+  color: var(--titles-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navlink:hover,
+.navlink:focus {
+  color: var(--active-color);
+}
+.active {
+  color: var(--active-color);
+}
+
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.herotext {
+  color: floralwhite;
+  background-color: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  color: var(--white-color);
+  background-color: #2196f3;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.specs-section-title {
+  color: var(--titles-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.specs-section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.engagement-title {
+  color: var(--titles-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-title {
+  color: var(--titles-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.footer {
+  background-color: var(--footer-color);
+}
+.address {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*portfolio*/
+.portfolio-button {
+  color: var(--titles-text-color);
+  background-color: var(--ourteam-bgc-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--active-color);
+  cursor: pointer;
+}
