@@ -1,3 +1,11 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --titles-text-color: rgba(33, 33, 33, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --ourteam-bgc-color: rgba(245, 244, 250, 1);
+  --footer-color: rgba(47, 48, 58, 1);
+  --active-color: rgba(33, 150, 243, 1);
+}
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
@@ -24,7 +32,7 @@ body {
   color: #2196f3;
 }
 .logo2 {
-  color: black;
+  color: var(--titles-text-color);
   position: absolute;
 }
 
@@ -47,7 +55,7 @@ body {
 .mail {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
@@ -55,13 +63,13 @@ body {
 .tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
 }
 .herotext {
-  color: floralwhite;
+  color: var(--white-color);
   background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
@@ -127,6 +135,7 @@ body {
   line-height: 1.71;
 }
 /*portfolio*/
+
 .portfolio-button {
   color: var(--titles-text-color);
   background-color: var(--ourteam-bgc-color);
