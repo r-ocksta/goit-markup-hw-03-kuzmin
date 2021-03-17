@@ -151,3 +151,6 @@ body {
   background-color: var(--active-color);
   cursor: pointer;
 }
+.container {
+  max-width: 1200px;
+}
