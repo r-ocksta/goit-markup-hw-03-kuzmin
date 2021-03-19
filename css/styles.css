@@ -11,6 +11,22 @@ body {
   background-color: var(--white-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  width: 1600px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .lists {
   list-style: none;
@@ -102,6 +118,7 @@ body {
   color: #757575;
 }
 /*hero*/
+
 .herotext {
   color: var(--white-color);
   background-color: #2f303a;
@@ -111,6 +128,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  box-sizing: border-box;
+  padding: 200px 450px 200px 450px;
+  pad
 }
 .button {
   color: var(--white-color);
@@ -124,7 +145,33 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+
+  margin-top: -230px;
+  text-align: center;
 }
+.button-sec {
+  padding-bottom: 200px;
+  padding-left: 700px;
+ align-items: center;
+}
+/*specs*/
+.specs-section .lists{
+  display: flex;
+  justify-content: center;
+}
+.specs-section .item {
+align-self: center;
+margin-left: 30px; 
+}
+.specs-section .item :first-child {
+  margin-left: 0;
+} 
+.specs-section-text {
+  width: 270px;
+  height: 75px;
+}
+
 
 .specs-section-title {
   color: var(--titles-text-color);
@@ -144,16 +191,43 @@ body {
   line-height: 1.17;
   text-align: center;
 }
+.engagement {
+  display: flex;
+  justify-content: center;
+}
+.engagement .engagement-pic {
+  align-self: center;
+margin-left: 30px; 
+}
+
+.engagement .engagement-pic:first-child {
+  margin-left: 0;
+
+} 
 .team-title {
   color: var(--titles-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
+.team .title {
+  text-align: center;
+}
 .team-text {
   font-size: 16px;
   line-height: 1.19;
 }
+.team {
+   display: flex;
+  justify-content: center;
+}
+.team .item {
+  margin-left: 30px; 
+}
+.team .item:first-child {
+margin-left: 0;
+}
+
 .footer {
   background-color: var(--footer-color);
 }
