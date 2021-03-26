@@ -26,7 +26,6 @@ p {
 img {
   display: block;
   max-width: 100%;
-  
 }
 .lists {
   list-style: none;
@@ -109,7 +108,12 @@ img {
   letter-spacing: 0.02em;
   color: #2196f3;
   margin-right: 50px;
+
 }
+.mailsvg {
+  align-items: center;
+}
+
 .tel {
   font-weight: 500;
   font-size: 14px;
@@ -121,6 +125,7 @@ img {
 
 .herotext {
   color: var(--white-color);
+  background-image: url (./images/backgroundhero.jpg);
   background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
@@ -131,7 +136,6 @@ img {
 
   box-sizing: border-box;
   padding: 200px 450px 200px 450px;
-  pad
 }
 .button {
   color: var(--white-color);
@@ -153,28 +157,27 @@ img {
 .button-sec {
   padding-bottom: 200px;
   padding-left: 700px;
- align-items: center;
+  align-items: center;
 }
 /*specs*/
 .specs-section {
   padding-top: 94px;
 }
-.specs-section .lists{
+.specs-section .lists {
   display: flex;
   justify-content: center;
 }
 .specs-section .item {
-align-self: center;
-margin-left: 30px; 
+  align-self: center;
+  margin-left: 30px;
 }
 .specs-section .item :first-child {
   margin-left: 0;
-} 
+}
 .specs-section-text {
   width: 270px;
   height: 75px;
 }
-
 
 .specs-section-title {
   color: var(--titles-text-color);
@@ -202,54 +205,48 @@ margin-left: 30px;
 }
 .engagement .engagement-pic {
   align-self: center;
-margin-left: 30px; 
-padding-bottom: 94px;
+  margin-left: 30px;
+  padding-bottom: 94px;
 }
 
 .engagement .engagement-pic:first-child {
   margin-left: 0;
-
-} 
+}
 .team {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 .team .title {
   font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-padding-top: 94px;
-padding-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 
-color: #212121;
+  color: #212121;
 }
 
-
 .team-title {
-color: var(--titles-text-color);
+  color: var(--titles-text-color);
 
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 
-text-align: center;
-letter-spacing: 0.03em;
-padding-top: 30px;
-padding-bottom: 10px;
-margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
 
-
-
-background-color: #ffffff;
-
+  background-color: #ffffff;
 }
 
 .team-text {
-
   font-size: 16px;
   line-height: 1.19;
-  
+
   padding-bottom: 30px;
   margin-bottom: 0;
   text-align: center;
@@ -260,23 +257,23 @@ background-color: #ffffff;
   justify-content: center;
 }
 .team .item {
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
-margin-left: 30px; 
-margin-bottom: 94px;
+  margin-left: 30px;
+  margin-bottom: 94px;
 }
 .team .item:first-child {
-margin-left: 0;
+  margin-left: 0;
 }
-
 
 .footer {
   background-color: var(--footer-color);
   height: 252px;
 }
 .footer-logo {
- padding-top: 60px; 
+  padding-top: 60px;
 }
 .footer-contacts {
   margin-left: 215px;
@@ -297,7 +294,7 @@ margin-left: 0;
 /*portfolio*/
 
 .portfolio-button {
-padding: 6px 22px;
+  padding: 6px 22px;
 
   color: var(--titles-text-color);
   background-color: var(--ourteam-bgc-color);
@@ -309,9 +306,8 @@ padding: 6px 22px;
   text-align: center;
   display: inline-block;
 
-margin-right: 8px;
-border: azure;
-  
+  margin-right: 8px;
+  border: azure;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -319,7 +315,7 @@ border: azure;
   background-color: var(--active-color);
   cursor: pointer;
 }
-.filter-button  {
+.filter-button {
   margin-top: 94px;
   margin-bottom: 50px;
 
@@ -330,7 +326,6 @@ border: azure;
   display: flex;
   justify-content: center;
 }
-
 
 .grid {
   width: 1230px;
@@ -353,9 +348,9 @@ border: azure;
 }
 
 .grid .item :nth-child(n3) {
-margin-right: 0;
-} 
+  margin-right: 0;
+}
 
-.grid .item :last-child(-n+3) {
+.grid .item :last-child(-n + 3) {
   margin-bottom: 0;
-} 
+}
